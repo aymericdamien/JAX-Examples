@@ -1,0 +1,10 @@
+jax>=0.12
+flax>=0.12
+optax>=0.2.8
+orbax-checkpoint>=0.12
+numpy
+matplotlib
+pillow
+tensorboardX
+grain>=0.2.18
+array-record
