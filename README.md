@@ -86,13 +86,6 @@ For older NVIDIA GPUs or drivers (e.g. V100 GPUs, or drivers older than 580), us
 
 For more details about JAX installation (GPU, TPU, ...), you can check [JAX Installation Guide](https://docs.jax.dev/en/latest/installation.html).
 
-To run an example (from the root of the repository):
-```
-python 3_NeuralNetworks/neural_network.py
-```
-
-The notebooks (in [`notebooks/`](notebooks)) are generated from the source codes, and already include the outputs of a full run. They can be re-generated with [`common/build_notebooks.py`](common/build_notebooks.py) (the `6_Hardware` notebooks need a machine with GPUs, see its docstring). In the source codes, a `# %%` line starts a new notebook cell: editors like VS Code also use these lines to run a script cell by cell.
-
 ## Others
 
 This is the JAX version of [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples). Every example follows the same structure, so you can also compare both side by side.
